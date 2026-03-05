@@ -13,6 +13,18 @@ This repository contains a simple **Rock Paper Scissors** web game. The game log
 
 - [Emscripten SDK](https://emscripten.org/docs/getting_started/downloads.html) installed and activated.
 
+  You can quickly setup the SDK inside the repo:
+  ```sh
+  git clone https://github.com/emscripten-core/emsdk.git
+  cd emsdk
+  ./emsdk install latest
+  ./emsdk activate latest
+  source ./emsdk_env.sh   # add this to your shell startup if you build often
+  cd ..
+  ```
+
+  After sourcing the environment, `emcc --version` should work.
+
 ## Building
 
 ```sh
