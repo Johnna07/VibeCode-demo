@@ -1,0 +1,4 @@
+# ignore compiled output
+rockpaperscissors.js
+rockpaperscissors.wasm
+build.sh
